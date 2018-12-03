@@ -1,0 +1,30 @@
+<form name="requestLoan">
+  <div class="form-group">
+    <label for="customerId">Limousine-Typ</label>
+
+<select cam-variable-name="LimousineType"
+		name="LimousineType"
+        cam-variable-type="String">
+  <option selected="selected" value="Limousine A">Limousine A</option>
+  <option value="Limousine B">Limousine B</option>
+</select>
+           
+<div class="form-group">
+    <label for="amount">Gewünschter Betrag</label>
+    <input class="form-control"
+           cam-variable-type="String"
+           cam-variable-name="Amount"
+           name="Amount" />
+</div> 
+       
+       
+              
+  </div>
+  <div class="form-group">
+    <label for="days">Tage der Suche</label>
+    <input class="form-control"
+           cam-variable-type="Integer"
+           cam-variable-name="DaySearch"
+           name="DaySearch" />
+  </div>
+</form>

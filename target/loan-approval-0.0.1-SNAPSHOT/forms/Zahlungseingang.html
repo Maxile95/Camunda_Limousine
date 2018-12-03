@@ -1,0 +1,36 @@
+<form name="Zahlungseingang">
+  <div class="form-group">
+    <label for="lbl_Zahlung1">Zahlung ausstehend f&uuml;r:</label>
+        <input class="form-control"
+           cam-variable-type="String"
+           cam-variable-name="Customer"
+           name="Customer"
+           readonly="true" />
+  </div>
+  
+    <div class="form-group">
+    <label for="lbl_Zahlung2">Geforderter Betrag:</label>
+        <input class="form-control"
+           cam-variable-type="String"
+           cam-variable-name="Amount"
+           name="Amount"
+           readonly="true" />
+  </div>
+  
+  
+  
+  <div class="form-group">
+    <label for="lbl_Zahlung2">Hat der genannte Kunde bezahlt?</label>
+
+<select cam-variable-name="Rechnung_bezahlt"
+        cam-variable-type="Boolean">
+  <option value="true">Ja</option>
+  <option value="false">Nein</option>
+</select>
+
+  </div>
+
+           
+          
+ 
+</form>
